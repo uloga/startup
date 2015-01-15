@@ -583,6 +583,13 @@ body.single .top-bar{
 .the-content .content form input{
     height: 40px;
 }
+.google-map{
+    margin-top: 58px;
+}
+.contact-page{
+    margin-top: 0;
+}
+
 /* footer */
 .footer{
     background: rgba(0,0,0,0.85);
