@@ -6,7 +6,7 @@
 		
 		var settings = $.extend({
 			component   : "tooltip",
-			trigger		: "mouseover", //focus
+			trigger	    : "mouseover", //focus
 			selector    : ".",
 			tip_class   : 'tip-wrapper',
 			tip_wrapper : "<div class='dc_tip_wrap'></div>",
@@ -36,9 +36,9 @@
 				var $this   =	$(this),
 				data        =	$this.attr("title"),
 				template    =	'<div class="'+settings.tip_class+'">' +
-							    '<span class="tip-arrow"></span>'+
-						        '<div class="tip-inner">'+data+'</div>'+
-								'</div>';
+						'<span class="tip-arrow"></span>'+
+						'<div class="tip-inner">'+data+'</div>'+
+						'</div>';
 							
 				$this.wrap(settings.tip_wrapper).append();
 				
