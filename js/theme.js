@@ -71,6 +71,8 @@
 			$(menu).css('display', 'none');
 		}
 	});
-	
+	//ie8 Grid System fix
+	$('.grid2 li:nth-child(2n+0)').css({"margin-right": "0"});
+	$('.grid3 li:nth-child(3n+0)').css({"margin-right": "0"});
 	
 })(jQuery);
